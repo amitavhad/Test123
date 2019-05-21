@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activityheadermaster_ahm" representedClassName="Activityheadermaster_ahm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Communicationviewmaster_cm" representedClassName="Communicationviewmaster_cm" syncable="YES" codeGenerationType="class">
+        <attribute name="cid_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="communicationflag_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customername_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgfrom_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgto_cm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketid_cm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Completedmeetingview_cmv" representedClassName="Completedmeetingview_cmv" syncable="YES" codeGenerationType="class">
+        <attribute name="actionreqiured_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custname_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="executivename_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingcomment_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingdate_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingduration_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingendtime_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingplace_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingstarttime_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordervalue_cmv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketid_cmv" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Customermst_cm" representedClassName="Customermst_cm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EarlyOutReasonmst_eorm" representedClassName="EarlyOutReasonmst_eorm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EngineerLeaveSummarymst_elsm" representedClassName="EngineerLeaveSummarymst_elsm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Incidentmaster_im" representedClassName="Incidentmaster_im" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Leaddespdescmst_lddm" representedClassName="Leaddespdescmst_lddm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Leaddespositionmast_ldm" representedClassName="Leaddespositionmast_ldm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Leadview_lv" representedClassName="Leadview_lv" syncable="YES" codeGenerationType="class">
+        <attribute name="businessunit_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callbackdate_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdbyexecutive_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdbyrole_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customeraddress_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercontactname1_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercontactname2_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercontactno1_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercontactno2_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customername_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custtype_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation1_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation2_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="disposition_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispositiondescription_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailid1_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailid2_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="executivecontactno_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="executivename_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadclosedate_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadclosetime_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaddate_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadid_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadsource_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadtime_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadtype_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="opportunitystatus_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oppurtunityid_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordervalue_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalcode_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productcategory_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productsubcategory_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarks1_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarks2_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state_lv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status_lv" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Leavetypemaster_ltm" representedClassName="Leavetypemaster_ltm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Locationmaster_lm" representedClassName="Locationmaster_lm" syncable="YES" codeGenerationType="class">
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ticketview_tv" representedClassName="Ticketview_tv" syncable="YES" codeGenerationType="class">
+        <attribute name="afl1_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="afl2_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assigneddatetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="atadatetime_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdby_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customeraddress_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercontactno2_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customeremailid2_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customername2_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerotp_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customertypeid_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailid1_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engineercontactno_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engineername_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="etadatetime_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="externalprogressname_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hcilsla_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="incidentage_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="incidentid_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ksyssla_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leadid_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="panelid_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productpriceapprovalstatus_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progressname_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status_tv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketid_tv" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Upmeeting_umv" representedClassName="Upmeeting_umv" syncable="YES" codeGenerationType="class">
+        <attribute name="address_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custname_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="executivename_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordervalue_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduldedate_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduldetime_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schedulecomment_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state_umv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tickedid_umv" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activityheadermaster_ahm" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="Completedmeetingview_cmv" positionX="-45" positionY="135" width="128" height="240"/>
+        <element name="Customermst_cm" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="EarlyOutReasonmst_eorm" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="EngineerLeaveSummarymst_elsm" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="Incidentmaster_im" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="Leaddespdescmst_lddm" positionX="-36" positionY="144" width="128" height="75"/>
+        <element name="Leaddespositionmast_ldm" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="Leadview_lv" positionX="-45" positionY="18" width="128" height="630"/>
+        <element name="Leavetypemaster_ltm" positionX="-36" positionY="27" width="128" height="75"/>
+        <element name="Locationmaster_lm" positionX="-36" positionY="144" width="128" height="75"/>
+        <element name="Ticketview_tv" positionX="-45" positionY="135" width="128" height="465"/>
+        <element name="Upmeeting_umv" positionX="-45" positionY="135" width="128" height="210"/>
+        <element name="Communicationviewmaster_cm" positionX="-45" positionY="135" width="128" height="165"/>
+    </elements>
+</model>
