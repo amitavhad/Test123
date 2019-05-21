@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281F364622155371007CE027 /* CoreDataHandlerforUpcomingmeetingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F364522155371007CE027 /* CoreDataHandlerforUpcomingmeetingview.swift */; };
+		28343D4821BA39CC000E3374 /* OppDetailsActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28343D4721BA39CC000E3374 /* OppDetailsActivityViewController.swift */; };
+		28343D4A21BA906E000E3374 /* OpprtunityMenuActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28343D4921BA906E000E3374 /* OpprtunityMenuActivityViewController.swift */; };
+		284B3F7F21A692C200FE7526 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F7E21A692C200FE7526 /* ParentViewController.swift */; };
+		284B3F8121A693A600FE7526 /* TabySegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8021A693A600FE7526 /* TabySegmentedControl.swift */; };
+		284B3F8321A6940B00FE7526 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8221A6940B00FE7526 /* SecondTabViewController.swift */; };
+		284B3F8521A6945200FE7526 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8421A6945200FE7526 /* FirstTabViewController.swift */; };
+		284B3F8721A6949200FE7526 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8621A6949200FE7526 /* LoadingIndicatorView.swift */; };
+		284B3F8921A694E800FE7526 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8821A694E800FE7526 /* Constants.swift */; };
+		284B3F8B21A6953C00FE7526 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8A21A6953C00FE7526 /* ModalViewController.swift */; };
+		284B3F8D21A6958000FE7526 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8C21A6958000FE7526 /* MenuTableViewCell.swift */; };
+		284B3F8F21A695C300FE7526 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F8E21A695C300FE7526 /* MenuTableViewController.swift */; };
+		284B3F9121A6960F00FE7526 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F9021A6960F00FE7526 /* SettingTableViewController.swift */; };
+		284B3F9321A6966200FE7526 /* MenuTransitionManagerDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F9221A6966200FE7526 /* MenuTransitionManagerDelegateViewController.swift */; };
+		284B3F9521A696BB00FE7526 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B3F9421A696BB00FE7526 /* MenuTransitionManager.swift */; };
+		28611D8A21A2753F007DFCCB /* LeadDetailsActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28611D8921A2753F007DFCCB /* LeadDetailsActivityViewController.swift */; };
+		286FCE222238CE9100FBF7CF /* CommunicationViewActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FCE212238CE9100FBF7CF /* CommunicationViewActivityController.swift */; };
+		286FCE2422391A9200FBF7CF /* CoreDataHandlerforCommunicationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FCE2322391A9200FBF7CF /* CoreDataHandlerforCommunicationview.swift */; };
+		2881A58321A7C2390067F0B8 /* CheckboxDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881A58221A7C2390067F0B8 /* CheckboxDialogViewController.swift */; };
+		2881A58521A7C2900067F0B8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881A58421A7C2900067F0B8 /* String.swift */; };
+		2881A58721A7C2B50067F0B8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881A58621A7C2B50067F0B8 /* UIColor.swift */; };
+		2881A58921A7C3330067F0B8 /* CheckboxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881A58821A7C3330067F0B8 /* CheckboxViewCell.swift */; };
+		2881A58B21A7E43C0067F0B8 /* LeadCloseActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881A58A21A7E43C0067F0B8 /* LeadCloseActivityViewController.swift */; };
+		2886D6F621A3CA5B001B662E /* LeadCallTrackActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D6F521A3CA5B001B662E /* LeadCallTrackActivityViewController.swift */; };
+		2886D70021A423DC001B662E /* LeadMenuActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D6FF21A423DC001B662E /* LeadMenuActivityViewController.swift */; };
+		28991D0B21CA0834003493C5 /* RemarkSubmitActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28991D0A21CA0834003493C5 /* RemarkSubmitActivityViewController.swift */; };
+		28995416217EED14001368AB /* MyAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28995415217EED14001368AB /* MyAvailabilityViewController.swift */; };
+		28A1CFE6219D3D8F0006E4E9 /* LeadViewActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1CFE5219D3D8F0006E4E9 /* LeadViewActivityController.swift */; };
+		28A1CFE8219E861A0006E4E9 /* LeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1CFE7219E861A0006E4E9 /* LeadView.swift */; };
+		28A1CFEA219E87840006E4E9 /* CoreDataHandlerforLeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1CFE9219E87840006E4E9 /* CoreDataHandlerforLeadView.swift */; };
+		28A6EB142216C0F10050412C /* UpcomingmeetingdetailsctivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6EB132216C0F10050412C /* UpcomingmeetingdetailsctivityViewController.swift */; };
+		28AFDF4121ABEFBC00D7098D /* OpportunitiesViewActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFDF4021ABEFBC00D7098D /* OpportunitiesViewActivityController.swift */; };
+		28AFDF4521ABF9D700D7098D /* CoreDataHandlerforOppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFDF4421ABF9D700D7098D /* CoreDataHandlerforOppView.swift */; };
+		28B96EC6223A537700B59FEE /* CommunicationDetailsActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B96EC5223A537700B59FEE /* CommunicationDetailsActivityViewController.swift */; };
+		28B96EC8223A5D8C00B59FEE /* CommunicationReplyActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B96EC7223A5D8C00B59FEE /* CommunicationReplyActivityViewController.swift */; };
+		28BC811F221434D6006E6FC2 /* UpcomingMeetingActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC811E221434D6006E6FC2 /* UpcomingMeetingActivityViewController.swift */; };
+		28C46808216F710B00AF3FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C46807216F710B00AF3FCB /* AppDelegate.swift */; };
+		28C4680A216F710B00AF3FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C46809216F710B00AF3FCB /* ViewController.swift */; };
+		28C4680D216F710B00AF3FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C4680B216F710B00AF3FCB /* Main.storyboard */; };
+		28C46810216F710B00AF3FCB /* UnoPointSLM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28C4680E216F710B00AF3FCB /* UnoPointSLM.xcdatamodeld */; };
+		28C46812216F710C00AF3FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C46811216F710C00AF3FCB /* Assets.xcassets */; };
+		28C46815216F710C00AF3FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C46813216F710C00AF3FCB /* LaunchScreen.storyboard */; };
+		28C46820216F710C00AF3FCB /* UnoPointSLMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4681F216F710C00AF3FCB /* UnoPointSLMTests.swift */; };
+		28C4682B216F710C00AF3FCB /* UnoPointSLMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4682A216F710C00AF3FCB /* UnoPointSLMUITests.swift */; };
+		28C5AE6B221A6C410035C73E /* CompletedMeetingActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5AE6A221A6C410035C73E /* CompletedMeetingActivityViewController.swift */; };
+		28C5AE6D221A90400035C73E /* CoreDataHandlerforCompletedmeetingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5AE6C221A90400035C73E /* CoreDataHandlerforCompletedmeetingview.swift */; };
+		28C7B7E72199391A0021C7B4 /* EnggAvailabilityLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7E62199391A0021C7B4 /* EnggAvailabilityLoginController.swift */; };
+		28C7B7E9219939520021C7B4 /* EnggAvailabilityLogoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7E8219939520021C7B4 /* EnggAvailabilityLogoutController.swift */; };
+		28C7B7EB21993AB30021C7B4 /* CoreDataHandlerForEnggActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7EA21993AB30021C7B4 /* CoreDataHandlerForEnggActivity.swift */; };
+		28C7B7ED21997B720021C7B4 /* EnggAvailabilityLeavesControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7EC21997B710021C7B4 /* EnggAvailabilityLeavesControllerViewController.swift */; };
+		28C7B7EF21997C8F0021C7B4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7EE21997C8F0021C7B4 /* TableViewCell.swift */; };
+		28C7B7F121997D4E0021C7B4 /* CoreDataHandlerForEnggAvailabilityActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7B7F021997D4E0021C7B4 /* CoreDataHandlerForEnggAvailabilityActivity.swift */; };
+		28CF2EE522311CC5003C8D25 /* CoreDataHandlerForDailyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF2EE422311CC5003C8D25 /* CoreDataHandlerForDailyActivity.swift */; };
+		28D1D169222FACB70057526B /* EnggDailyActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1D168222FACB70057526B /* EnggDailyActivityViewController.swift */; };
+		28E1362421C0D567005C249A /* MeetStartActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1362321C0D567005C249A /* MeetStartActivityViewController.swift */; };
+		28E4C4DB218191D50075A431 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4C4DA218191D50075A431 /* WebViewController.swift */; };
+		28FE892321CCFEA3005BE05A /* OpportunityCallBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE892221CCFEA3005BE05A /* OpportunityCallBackViewController.swift */; };
+		28FED94121A666D10070BD64 /* LeadCallBackActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FED94021A666D10070BD64 /* LeadCallBackActivityViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C4681C216F710C00AF3FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C467FC216F710A00AF3FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C46803216F710B00AF3FCB;
+			remoteInfo = UnoPointSLM;
+		};
+		28C46827216F710C00AF3FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C467FC216F710A00AF3FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C46803216F710B00AF3FCB;
+			remoteInfo = UnoPointSLM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281F364522155371007CE027 /* CoreDataHandlerforUpcomingmeetingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerforUpcomingmeetingview.swift; sourceTree = "<group>"; };
+		28343D4721BA39CC000E3374 /* OppDetailsActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppDetailsActivityViewController.swift; sourceTree = "<group>"; };
+		28343D4921BA906E000E3374 /* OpprtunityMenuActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpprtunityMenuActivityViewController.swift; sourceTree = "<group>"; };
+		284B3F7E21A692C200FE7526 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		284B3F8021A693A600FE7526 /* TabySegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabySegmentedControl.swift; sourceTree = "<group>"; };
+		284B3F8221A6940B00FE7526 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		284B3F8421A6945200FE7526 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		284B3F8621A6949200FE7526 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		284B3F8821A694E800FE7526 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		284B3F8A21A6953C00FE7526 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		284B3F8C21A6958000FE7526 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		284B3F8E21A695C300FE7526 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		284B3F9021A6960F00FE7526 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		284B3F9221A6966200FE7526 /* MenuTransitionManagerDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionManagerDelegateViewController.swift; sourceTree = "<group>"; };
+		284B3F9421A696BB00FE7526 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		28611D8921A2753F007DFCCB /* LeadDetailsActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadDetailsActivityViewController.swift; sourceTree = "<group>"; };
+		286FCE212238CE9100FBF7CF /* CommunicationViewActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationViewActivityController.swift; sourceTree = "<group>"; };
+		286FCE2322391A9200FBF7CF /* CoreDataHandlerforCommunicationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerforCommunicationview.swift; sourceTree = "<group>"; };
+		2881A58221A7C2390067F0B8 /* CheckboxDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxDialogViewController.swift; sourceTree = "<group>"; };
+		2881A58421A7C2900067F0B8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2881A58621A7C2B50067F0B8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2881A58821A7C3330067F0B8 /* CheckboxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxViewCell.swift; sourceTree = "<group>"; };
+		2881A58A21A7E43C0067F0B8 /* LeadCloseActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadCloseActivityViewController.swift; sourceTree = "<group>"; };
+		2886D6F521A3CA5B001B662E /* LeadCallTrackActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadCallTrackActivityViewController.swift; sourceTree = "<group>"; };
+		2886D6FF21A423DC001B662E /* LeadMenuActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadMenuActivityViewController.swift; sourceTree = "<group>"; };
+		28991D0A21CA0834003493C5 /* RemarkSubmitActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkSubmitActivityViewController.swift; sourceTree = "<group>"; };
+		28995415217EED14001368AB /* MyAvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAvailabilityViewController.swift; sourceTree = "<group>"; };
+		28A1CFE5219D3D8F0006E4E9 /* LeadViewActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadViewActivityController.swift; sourceTree = "<group>"; };
+		28A1CFE7219E861A0006E4E9 /* LeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadView.swift; sourceTree = "<group>"; };
+		28A1CFE9219E87840006E4E9 /* CoreDataHandlerforLeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerforLeadView.swift; sourceTree = "<group>"; };
+		28A6EB132216C0F10050412C /* UpcomingmeetingdetailsctivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingmeetingdetailsctivityViewController.swift; sourceTree = "<group>"; };
+		28AFDF4021ABEFBC00D7098D /* OpportunitiesViewActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunitiesViewActivityController.swift; sourceTree = "<group>"; };
+		28AFDF4421ABF9D700D7098D /* CoreDataHandlerforOppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerforOppView.swift; sourceTree = "<group>"; };
+		28B96EC5223A537700B59FEE /* CommunicationDetailsActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationDetailsActivityViewController.swift; sourceTree = "<group>"; };
+		28B96EC7223A5D8C00B59FEE /* CommunicationReplyActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationReplyActivityViewController.swift; sourceTree = "<group>"; };
+		28BC811E221434D6006E6FC2 /* UpcomingMeetingActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMeetingActivityViewController.swift; sourceTree = "<group>"; };
+		28C46804216F710B00AF3FCB /* UnoPointSLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnoPointSLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C46807216F710B00AF3FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C46809216F710B00AF3FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28C4680C216F710B00AF3FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28C4680F216F710B00AF3FCB /* UnoPointSLM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnoPointSLM.xcdatamodel; sourceTree = "<group>"; };
+		28C46811216F710C00AF3FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C46814216F710C00AF3FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C46816216F710C00AF3FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C4681B216F710C00AF3FCB /* UnoPointSLMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnoPointSLMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C4681F216F710C00AF3FCB /* UnoPointSLMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnoPointSLMTests.swift; sourceTree = "<group>"; };
+		28C46821216F710C00AF3FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C46826216F710C00AF3FCB /* UnoPointSLMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnoPointSLMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C4682A216F710C00AF3FCB /* UnoPointSLMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnoPointSLMUITests.swift; sourceTree = "<group>"; };
+		28C4682C216F710C00AF3FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C5AE6A221A6C410035C73E /* CompletedMeetingActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedMeetingActivityViewController.swift; sourceTree = "<group>"; };
+		28C5AE6C221A90400035C73E /* CoreDataHandlerforCompletedmeetingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerforCompletedmeetingview.swift; sourceTree = "<group>"; };
+		28C7B7E62199391A0021C7B4 /* EnggAvailabilityLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnggAvailabilityLoginController.swift; sourceTree = "<group>"; };
+		28C7B7E8219939520021C7B4 /* EnggAvailabilityLogoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnggAvailabilityLogoutController.swift; sourceTree = "<group>"; };
+		28C7B7EA21993AB30021C7B4 /* CoreDataHandlerForEnggActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerForEnggActivity.swift; sourceTree = "<group>"; };
+		28C7B7EC21997B710021C7B4 /* EnggAvailabilityLeavesControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnggAvailabilityLeavesControllerViewController.swift; sourceTree = "<group>"; };
+		28C7B7EE21997C8F0021C7B4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		28C7B7F021997D4E0021C7B4 /* CoreDataHandlerForEnggAvailabilityActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerForEnggAvailabilityActivity.swift; sourceTree = "<group>"; };
+		28CF2EE422311CC5003C8D25 /* CoreDataHandlerForDailyActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerForDailyActivity.swift; sourceTree = "<group>"; };
+		28D1D168222FACB70057526B /* EnggDailyActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnggDailyActivityViewController.swift; sourceTree = "<group>"; };
+		28E1362321C0D567005C249A /* MeetStartActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetStartActivityViewController.swift; sourceTree = "<group>"; };
+		28E4C4DA218191D50075A431 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		28FE892221CCFEA3005BE05A /* OpportunityCallBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityCallBackViewController.swift; sourceTree = "<group>"; };
+		28FED94021A666D10070BD64 /* LeadCallBackActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadCallBackActivityViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C46801216F710B00AF3FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46818216F710C00AF3FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46823216F710C00AF3FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C467FB216F710A00AF3FCB = {
+			isa = PBXGroup;
+			children = (
+				28C46806216F710B00AF3FCB /* UnoPointSLM */,
+				28C4681E216F710C00AF3FCB /* UnoPointSLMTests */,
+				28C46829216F710C00AF3FCB /* UnoPointSLMUITests */,
+				28C46805216F710B00AF3FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C46805216F710B00AF3FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C46804216F710B00AF3FCB /* UnoPointSLM.app */,
+				28C4681B216F710C00AF3FCB /* UnoPointSLMTests.xctest */,
+				28C46826216F710C00AF3FCB /* UnoPointSLMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C46806216F710B00AF3FCB /* UnoPointSLM */ = {
+			isa = PBXGroup;
+			children = (
+				28C46807216F710B00AF3FCB /* AppDelegate.swift */,
+				28C46809216F710B00AF3FCB /* ViewController.swift */,
+				28C4680B216F710B00AF3FCB /* Main.storyboard */,
+				28C46811216F710C00AF3FCB /* Assets.xcassets */,
+				28C46813216F710C00AF3FCB /* LaunchScreen.storyboard */,
+				28C46816216F710C00AF3FCB /* Info.plist */,
+				28C4680E216F710B00AF3FCB /* UnoPointSLM.xcdatamodeld */,
+				284B3F8821A694E800FE7526 /* Constants.swift */,
+				2881A58421A7C2900067F0B8 /* String.swift */,
+				2881A58621A7C2B50067F0B8 /* UIColor.swift */,
+				284B3F8621A6949200FE7526 /* LoadingIndicatorView.swift */,
+				2881A58221A7C2390067F0B8 /* CheckboxDialogViewController.swift */,
+				2881A58821A7C3330067F0B8 /* CheckboxViewCell.swift */,
+				284B3F8A21A6953C00FE7526 /* ModalViewController.swift */,
+				284B3F8C21A6958000FE7526 /* MenuTableViewCell.swift */,
+				284B3F8E21A695C300FE7526 /* MenuTableViewController.swift */,
+				284B3F9221A6966200FE7526 /* MenuTransitionManagerDelegateViewController.swift */,
+				284B3F9421A696BB00FE7526 /* MenuTransitionManager.swift */,
+				28995415217EED14001368AB /* MyAvailabilityViewController.swift */,
+				28C7B7EA21993AB30021C7B4 /* CoreDataHandlerForEnggActivity.swift */,
+				28C7B7E62199391A0021C7B4 /* EnggAvailabilityLoginController.swift */,
+				28C7B7E8219939520021C7B4 /* EnggAvailabilityLogoutController.swift */,
+				28C7B7EC21997B710021C7B4 /* EnggAvailabilityLeavesControllerViewController.swift */,
+				28C7B7EE21997C8F0021C7B4 /* TableViewCell.swift */,
+				28C7B7F021997D4E0021C7B4 /* CoreDataHandlerForEnggAvailabilityActivity.swift */,
+				28A1CFE5219D3D8F0006E4E9 /* LeadViewActivityController.swift */,
+				28A1CFE7219E861A0006E4E9 /* LeadView.swift */,
+				28A1CFE9219E87840006E4E9 /* CoreDataHandlerforLeadView.swift */,
+				28611D8921A2753F007DFCCB /* LeadDetailsActivityViewController.swift */,
+				2886D6FF21A423DC001B662E /* LeadMenuActivityViewController.swift */,
+				2886D6F521A3CA5B001B662E /* LeadCallTrackActivityViewController.swift */,
+				28FED94021A666D10070BD64 /* LeadCallBackActivityViewController.swift */,
+				2881A58A21A7E43C0067F0B8 /* LeadCloseActivityViewController.swift */,
+				28E4C4DA218191D50075A431 /* WebViewController.swift */,
+				284B3F7E21A692C200FE7526 /* ParentViewController.swift */,
+				284B3F8021A693A600FE7526 /* TabySegmentedControl.swift */,
+				284B3F8221A6940B00FE7526 /* SecondTabViewController.swift */,
+				284B3F8421A6945200FE7526 /* FirstTabViewController.swift */,
+				284B3F9021A6960F00FE7526 /* SettingTableViewController.swift */,
+				28AFDF4021ABEFBC00D7098D /* OpportunitiesViewActivityController.swift */,
+				28AFDF4421ABF9D700D7098D /* CoreDataHandlerforOppView.swift */,
+				28343D4721BA39CC000E3374 /* OppDetailsActivityViewController.swift */,
+				28343D4921BA906E000E3374 /* OpprtunityMenuActivityViewController.swift */,
+				28E1362321C0D567005C249A /* MeetStartActivityViewController.swift */,
+				28991D0A21CA0834003493C5 /* RemarkSubmitActivityViewController.swift */,
+				28FE892221CCFEA3005BE05A /* OpportunityCallBackViewController.swift */,
+				28BC811E221434D6006E6FC2 /* UpcomingMeetingActivityViewController.swift */,
+				281F364522155371007CE027 /* CoreDataHandlerforUpcomingmeetingview.swift */,
+				28A6EB132216C0F10050412C /* UpcomingmeetingdetailsctivityViewController.swift */,
+				28C5AE6A221A6C410035C73E /* CompletedMeetingActivityViewController.swift */,
+				28C5AE6C221A90400035C73E /* CoreDataHandlerforCompletedmeetingview.swift */,
+				28D1D168222FACB70057526B /* EnggDailyActivityViewController.swift */,
+				28CF2EE422311CC5003C8D25 /* CoreDataHandlerForDailyActivity.swift */,
+				286FCE212238CE9100FBF7CF /* CommunicationViewActivityController.swift */,
+				286FCE2322391A9200FBF7CF /* CoreDataHandlerforCommunicationview.swift */,
+				28B96EC5223A537700B59FEE /* CommunicationDetailsActivityViewController.swift */,
+				28B96EC7223A5D8C00B59FEE /* CommunicationReplyActivityViewController.swift */,
+			);
+			path = UnoPointSLM;
+			sourceTree = "<group>";
+		};
+		28C4681E216F710C00AF3FCB /* UnoPointSLMTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C4681F216F710C00AF3FCB /* UnoPointSLMTests.swift */,
+				28C46821216F710C00AF3FCB /* Info.plist */,
+			);
+			path = UnoPointSLMTests;
+			sourceTree = "<group>";
+		};
+		28C46829216F710C00AF3FCB /* UnoPointSLMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C4682A216F710C00AF3FCB /* UnoPointSLMUITests.swift */,
+				28C4682C216F710C00AF3FCB /* Info.plist */,
+			);
+			path = UnoPointSLMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C46803216F710B00AF3FCB /* UnoPointSLM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C4682F216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLM" */;
+			buildPhases = (
+				28C46800216F710B00AF3FCB /* Sources */,
+				28C46801216F710B00AF3FCB /* Frameworks */,
+				28C46802216F710B00AF3FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnoPointSLM;
+			productName = UnoPointSLM;
+			productReference = 28C46804216F710B00AF3FCB /* UnoPointSLM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C4681A216F710C00AF3FCB /* UnoPointSLMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C46832216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLMTests" */;
+			buildPhases = (
+				28C46817216F710C00AF3FCB /* Sources */,
+				28C46818216F710C00AF3FCB /* Frameworks */,
+				28C46819216F710C00AF3FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C4681D216F710C00AF3FCB /* PBXTargetDependency */,
+			);
+			name = UnoPointSLMTests;
+			productName = UnoPointSLMTests;
+			productReference = 28C4681B216F710C00AF3FCB /* UnoPointSLMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C46825216F710C00AF3FCB /* UnoPointSLMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C46835216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLMUITests" */;
+			buildPhases = (
+				28C46822216F710C00AF3FCB /* Sources */,
+				28C46823216F710C00AF3FCB /* Frameworks */,
+				28C46824216F710C00AF3FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C46828216F710C00AF3FCB /* PBXTargetDependency */,
+			);
+			name = UnoPointSLMUITests;
+			productName = UnoPointSLMUITests;
+			productReference = 28C46826216F710C00AF3FCB /* UnoPointSLMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C467FC216F710A00AF3FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Amit A";
+				TargetAttributes = {
+					28C46803216F710B00AF3FCB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					28C4681A216F710C00AF3FCB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 28C46803216F710B00AF3FCB;
+					};
+					28C46825216F710C00AF3FCB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 28C46803216F710B00AF3FCB;
+					};
+				};
+			};
+			buildConfigurationList = 28C467FF216F710A00AF3FCB /* Build configuration list for PBXProject "UnoPointSLM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C467FB216F710A00AF3FCB;
+			productRefGroup = 28C46805216F710B00AF3FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C46803216F710B00AF3FCB /* UnoPointSLM */,
+				28C4681A216F710C00AF3FCB /* UnoPointSLMTests */,
+				28C46825216F710C00AF3FCB /* UnoPointSLMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C46802216F710B00AF3FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C46815216F710C00AF3FCB /* LaunchScreen.storyboard in Resources */,
+				28C46812216F710C00AF3FCB /* Assets.xcassets in Resources */,
+				28C4680D216F710B00AF3FCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46819216F710C00AF3FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46824216F710C00AF3FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C46800216F710B00AF3FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D1D169222FACB70057526B /* EnggDailyActivityViewController.swift in Sources */,
+				28A1CFE8219E861A0006E4E9 /* LeadView.swift in Sources */,
+				286FCE222238CE9100FBF7CF /* CommunicationViewActivityController.swift in Sources */,
+				284B3F9121A6960F00FE7526 /* SettingTableViewController.swift in Sources */,
+				284B3F8121A693A600FE7526 /* TabySegmentedControl.swift in Sources */,
+				284B3F8521A6945200FE7526 /* FirstTabViewController.swift in Sources */,
+				286FCE2422391A9200FBF7CF /* CoreDataHandlerforCommunicationview.swift in Sources */,
+				28B96EC6223A537700B59FEE /* CommunicationDetailsActivityViewController.swift in Sources */,
+				28C5AE6D221A90400035C73E /* CoreDataHandlerforCompletedmeetingview.swift in Sources */,
+				2881A58B21A7E43C0067F0B8 /* LeadCloseActivityViewController.swift in Sources */,
+				284B3F7F21A692C200FE7526 /* ParentViewController.swift in Sources */,
+				284B3F8B21A6953C00FE7526 /* ModalViewController.swift in Sources */,
+				28A1CFE6219D3D8F0006E4E9 /* LeadViewActivityController.swift in Sources */,
+				284B3F8921A694E800FE7526 /* Constants.swift in Sources */,
+				28C7B7ED21997B720021C7B4 /* EnggAvailabilityLeavesControllerViewController.swift in Sources */,
+				284B3F8D21A6958000FE7526 /* MenuTableViewCell.swift in Sources */,
+				28C7B7EF21997C8F0021C7B4 /* TableViewCell.swift in Sources */,
+				28A6EB142216C0F10050412C /* UpcomingmeetingdetailsctivityViewController.swift in Sources */,
+				2881A58521A7C2900067F0B8 /* String.swift in Sources */,
+				284B3F9321A6966200FE7526 /* MenuTransitionManagerDelegateViewController.swift in Sources */,
+				28A1CFEA219E87840006E4E9 /* CoreDataHandlerforLeadView.swift in Sources */,
+				28C7B7E9219939520021C7B4 /* EnggAvailabilityLogoutController.swift in Sources */,
+				28C5AE6B221A6C410035C73E /* CompletedMeetingActivityViewController.swift in Sources */,
+				281F364622155371007CE027 /* CoreDataHandlerforUpcomingmeetingview.swift in Sources */,
+				28995416217EED14001368AB /* MyAvailabilityViewController.swift in Sources */,
+				28B96EC8223A5D8C00B59FEE /* CommunicationReplyActivityViewController.swift in Sources */,
+				284B3F8F21A695C300FE7526 /* MenuTableViewController.swift in Sources */,
+				284B3F9521A696BB00FE7526 /* MenuTransitionManager.swift in Sources */,
+				28C7B7EB21993AB30021C7B4 /* CoreDataHandlerForEnggActivity.swift in Sources */,
+				28991D0B21CA0834003493C5 /* RemarkSubmitActivityViewController.swift in Sources */,
+				28FED94121A666D10070BD64 /* LeadCallBackActivityViewController.swift in Sources */,
+				28E1362421C0D567005C249A /* MeetStartActivityViewController.swift in Sources */,
+				28C7B7F121997D4E0021C7B4 /* CoreDataHandlerForEnggAvailabilityActivity.swift in Sources */,
+				28C46810216F710B00AF3FCB /* UnoPointSLM.xcdatamodeld in Sources */,
+				28FE892321CCFEA3005BE05A /* OpportunityCallBackViewController.swift in Sources */,
+				28BC811F221434D6006E6FC2 /* UpcomingMeetingActivityViewController.swift in Sources */,
+				2881A58921A7C3330067F0B8 /* CheckboxViewCell.swift in Sources */,
+				2881A58721A7C2B50067F0B8 /* UIColor.swift in Sources */,
+				28C4680A216F710B00AF3FCB /* ViewController.swift in Sources */,
+				28343D4821BA39CC000E3374 /* OppDetailsActivityViewController.swift in Sources */,
+				28C7B7E72199391A0021C7B4 /* EnggAvailabilityLoginController.swift in Sources */,
+				28AFDF4521ABF9D700D7098D /* CoreDataHandlerforOppView.swift in Sources */,
+				284B3F8721A6949200FE7526 /* LoadingIndicatorView.swift in Sources */,
+				28611D8A21A2753F007DFCCB /* LeadDetailsActivityViewController.swift in Sources */,
+				28AFDF4121ABEFBC00D7098D /* OpportunitiesViewActivityController.swift in Sources */,
+				284B3F8321A6940B00FE7526 /* SecondTabViewController.swift in Sources */,
+				2886D70021A423DC001B662E /* LeadMenuActivityViewController.swift in Sources */,
+				28CF2EE522311CC5003C8D25 /* CoreDataHandlerForDailyActivity.swift in Sources */,
+				28C46808216F710B00AF3FCB /* AppDelegate.swift in Sources */,
+				28E4C4DB218191D50075A431 /* WebViewController.swift in Sources */,
+				2886D6F621A3CA5B001B662E /* LeadCallTrackActivityViewController.swift in Sources */,
+				28343D4A21BA906E000E3374 /* OpprtunityMenuActivityViewController.swift in Sources */,
+				2881A58321A7C2390067F0B8 /* CheckboxDialogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46817216F710C00AF3FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C46820216F710C00AF3FCB /* UnoPointSLMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C46822216F710C00AF3FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C4682B216F710C00AF3FCB /* UnoPointSLMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C4681D216F710C00AF3FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C46803216F710B00AF3FCB /* UnoPointSLM */;
+			targetProxy = 28C4681C216F710C00AF3FCB /* PBXContainerItemProxy */;
+		};
+		28C46828216F710C00AF3FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C46803216F710B00AF3FCB /* UnoPointSLM */;
+			targetProxy = 28C46827216F710C00AF3FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C4680B216F710B00AF3FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C4680C216F710B00AF3FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28C46813216F710C00AF3FCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C46814216F710C00AF3FCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C4682D216F710C00AF3FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C4682E216F710C00AF3FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C46830216F710C00AF3FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C46831216F710C00AF3FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C46833216F710C00AF3FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnoPointSLM.app/UnoPointSLM";
+			};
+			name = Debug;
+		};
+		28C46834216F710C00AF3FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnoPointSLM.app/UnoPointSLM";
+			};
+			name = Release;
+		};
+		28C46836216F710C00AF3FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnoPointSLM;
+			};
+			name = Debug;
+		};
+		28C46837216F710C00AF3FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH75QH664V;
+				INFOPLIST_FILE = UnoPointSLMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelliuno.UnoPointSLMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnoPointSLM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C467FF216F710A00AF3FCB /* Build configuration list for PBXProject "UnoPointSLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C4682D216F710C00AF3FCB /* Debug */,
+				28C4682E216F710C00AF3FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C4682F216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C46830216F710C00AF3FCB /* Debug */,
+				28C46831216F710C00AF3FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C46832216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C46833216F710C00AF3FCB /* Debug */,
+				28C46834216F710C00AF3FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C46835216F710C00AF3FCB /* Build configuration list for PBXNativeTarget "UnoPointSLMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C46836216F710C00AF3FCB /* Debug */,
+				28C46837216F710C00AF3FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28C4680E216F710B00AF3FCB /* UnoPointSLM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C4680F216F710B00AF3FCB /* UnoPointSLM.xcdatamodel */,
+			);
+			currentVersion = 28C4680F216F710B00AF3FCB /* UnoPointSLM.xcdatamodel */;
+			path = UnoPointSLM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28C467FC216F710A00AF3FCB /* Project object */;
+}
